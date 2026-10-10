@@ -1,0 +1,10 @@
+@"
+.venv/
+venv/
+.env
+*env*
+!.env.example
+.ipynb_checkpoints/
+__pycache__/
+chroma_db/
+"@ | Out-File -Encoding utf8 .gitignore
